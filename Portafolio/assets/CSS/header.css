@@ -1,0 +1,24 @@
+header {
+    padding: 5rem 0 3rem;
+    position: relative;
+    overflow: hidden;
+    background:  linear-gradient(var(--black), var(--black2));
+}
+
+#above-video {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* transform: translate(-50%,-50%); */
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.2;
+}
