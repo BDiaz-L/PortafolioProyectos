@@ -12,9 +12,9 @@
 
     function onScroll () {
         updatePos ();
-        console.log(windowPos,breakpoint,main.offsetTop,navbarHeight);
+        // console.log(windowPos,breakpoint,main.offsetTop,navbarHeight);
         let classOpen = navbar.classList.contains('open');
-        console.log(classOpen);
+        // console.log(classOpen);
         if (windowPos >= breakpoint && !isFixed) {
             // navbar.classList.remove('open');
             navbar.classList.add('navbar-fixed');
